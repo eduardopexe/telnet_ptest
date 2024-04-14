@@ -1,0 +1,11 @@
+#exemplo split file
+split -d -l 1842 /tim_teste/lists/tuffin_teste1.txt /tim_teste/lists/telnet/tft_ --additional-suffix=".txt"
+
+#exemplo fping para gravar saida em arquivo
+#por rede
+fping -b 30 -c 3 -n -q -g 10.174.21.64/26 >> /files/rede_10.174.21.txt 2>&1
+
+#por arquivo com lista de ips
+fping -b 30 -c 3 -n -q -f /caminhodiretorio/listaips.txt >> /files/rede_10.174.21.txt 2>&1
+
+

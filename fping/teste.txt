@@ -1,0 +1,1 @@
+fping -b 30 -c 3 -q -f /labperl/tim_teste/fping/lu.txt > /labperl/tim_teste/fping/ping_teste_tim00.txt 2>&1 &
